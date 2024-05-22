@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 60%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    span{
+        color: red;
+    }
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 20px;
+    font-size: 20px;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
